@@ -11,14 +11,8 @@ export default defineConfig({
 		// Startlight-specific config
 		starlight({
 			title: 'Owen\'s DevLog',
-			social: [{
-				icon: 'github', label: 'GitHub', href: 'https://github.com/omundy/dig345-devlog'
-			}],
 			sidebar: [
 				{ label: 'Schedule', autogenerate: { directory: 'schedule' }, },
-			],
-			customCss: [
-				'./src/styles/custom.css', // relative path to custom CSS file
 			],
 		}),
 	],
